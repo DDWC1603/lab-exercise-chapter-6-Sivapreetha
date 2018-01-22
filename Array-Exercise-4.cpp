@@ -1,9 +1,6 @@
-//program to show a 3dimensional array
-//complete the unfinish and problamatic program below
-//thanks.
-
+//*Sivapreetha Anbumuthu
 #include<iostream>
-
+#include<conio.h>
 using namespace std;
 
 int main()
@@ -11,12 +8,13 @@ int main()
 
 	int array[10][10],dim1,dim2,dim3,i,j,k;
 	cout<<"Enter the three dimensions size"<<end;
+	cin>>d1>>d2>>d3
 	
 	cout<<"Enter elements of array"<<endl;
 
-	for(/*idim1*/)
-		for(/*jdim2*/)
-			for(/*kdim3*/)
+	for(i=1;i<d1;i++)
+		for(j=0;j<d2;j++)
+			for(k=0;k<d3;k++)
 			{
 				cout<<"a["<<i<<"]["<<j<<"]["<<k<<"]=";
 				array[i][j][k];
@@ -25,9 +23,9 @@ int main()
 	xour<<"Displaying elements of array"<<endl;
 
 	
-	for(/*idim1*/)
-		for(/*jdim2*/)
-			for(/*kdim3*/)
+	for(i=0;i<d1;i==)
+		for(j=0;j<d2;j++)
+			for(k=0;k<d3;k++)
 				cout<<"a["<<i<<"]["<<j<<"]["<<k<<"]="<<array[i][j][k]<<endl;
 				
 }
