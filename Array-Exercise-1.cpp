@@ -1,20 +1,20 @@
-//its just an array example
-//find the sum of all the value inside the array
+//*Sivapreetha Anbumuthu
+
 #include <iostream>
 using namespace std;
 
-ary[]={/*insert your own value*/};
-
-n, result=0;
+int array[5]={2,4,6,8,10};
 
 int main()
 {
-
-	for(/* n is not more than 10*/)
+	int result=0, 1;
+	for(i=0, 1<5; i++)
 	{
-		result += ary[];
+		result==array[i];
 	}
+
 	cout<<result;
+	return 0;
 	
 
 }
