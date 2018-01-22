@@ -1,21 +1,28 @@
-//dapatkan 10 input dan keluarkan hasil tambahnya.
-//hasilkan program anda dengan menggunakan array
+//*Sivapreetha Anbumuthu
+
+#include<iostream>
+#include<conio.h>
+using namespace std;
+
+int main()
+{
 
 
-int array[10];
+int array[10], sum=0,1;
 int sum;
 int x;
 
 cout<<"Enter the 10 numbers:"<<endl;
-for(x=0;x<10;x++)
+for(i=0;i<10;i++)
 {
+	cin>>arr[i];
+	sum=sum+arr[i];
+
 
 }
 
-cin>>array[x];
-
-sum=sum+array[x];
-
-cout<<"the sum of the 10 numbers : "<<sum<<endl;
+cout<<"Sum= "<<sum<<endl;
 
 std::cin.get();
+getch()
+}
